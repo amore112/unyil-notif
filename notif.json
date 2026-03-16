@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-16T12:00:00Z",
+  "notifications": [
+    {
+      "id": "global-maintenance-001",
+      "title": "Maintenance Notice",
+      "message": "Maintenance server telah selesai, mohon maaf ketidaknyamanannya",
+      "target": "all",
+      "level": "info",
+      "startsAt": "2026-03-16T00:00:00Z",
+      "expiresAt": "2026-03-20T00:00:00Z",
+      "url": "/",
+      "ctaLabel": "View",
+      "dismissible": true
+    },
+    {
+      "id": "proxy-player",
+      "title": "Proxy Video Player",
+      "message": "Untuk pengguna yang tidak menggunakan dns seperti 1.1.1.1 saat memutar video, dapat mengganti source nya menjadi Unyil Proxy",
+      "target": "all",
+      "level": "info",
+      "startsAt": "2026-03-16T00:00:00Z",
+      "expiresAt": "2026-04-15T00:00:00Z",
+      "url": "/upgrade",
+      "ctaLabel": "Upgrade",
+      "dismissible": true
+    }
+  ]
+}
