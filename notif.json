@@ -1,29 +1,41 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-16T12:00:00Z",
+  "updatedAt": "2026-04-27T14:35:00Z",
   "notifications": [
     {
       "id": "global-maintenance-001",
-      "title": "Maintenance Notice",
-      "message": "Maintenance server telah selesai, mohon maaf ketidaknyamanannya",
+      "title": "Sistem Normal",
+      "message": "Pemeliharaan server telah selesai. Seluruh layanan kini kembali beroperasi dengan optimal.",
       "target": "all",
       "level": "info",
-      "startsAt": "2026-03-16T00:00:00Z",
-      "expiresAt": "2026-03-20T00:00:00Z",
+      "startsAt": "2026-04-27T00:00:00Z",
+      "expiresAt": "2026-05-01T00:00:00Z",
       "url": "/",
-      "ctaLabel": "View",
+      "ctaLabel": "Home",
       "dismissible": true
     },
     {
       "id": "proxy-player",
-      "title": "Proxy Video Player",
-      "message": "Untuk pengguna yang tidak menggunakan dns seperti 1.1.1.1 saat memutar video, dapat mengganti source nya menjadi Unyil Proxy",
+      "title": "Tips Pemutaran Video",
+      "message": "Jika Anda tidak menggunakan DNS (seperti 1.1.1.1), silakan ganti sumber video ke 'Unyil Proxy' untuk kelancaran streaming.",
       "target": "all",
       "level": "info",
-      "startsAt": "2026-03-16T00:00:00Z",
-      "expiresAt": "2026-04-15T00:00:00Z",
+      "startsAt": "2026-04-27T00:00:00Z",
+      "expiresAt": "2026-05-27T00:00:00Z",
       "url": "/upgrade",
-      "ctaLabel": "Upgrade",
+      "ctaLabel": "Pelajari",
+      "dismissible": true
+    },
+    {
+      "id": "forum-monetization-001",
+      "title": "Fitur Baru: Forum Marketplace",
+      "message": "Sekarang Anda bisa jual dan beli media langsung di /forum! Mulai hasilkan pendapatan dari konten eksklusif Anda hari ini.",
+      "target": "all",
+      "level": "success",
+      "startsAt": "2026-04-27T00:00:00Z",
+      "expiresAt": "2026-05-27T00:00:00Z",
+      "url": "/forum",
+      "ctaLabel": "Cek Forum",
       "dismissible": true
     }
   ]
